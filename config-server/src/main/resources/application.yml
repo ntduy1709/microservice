@@ -24,3 +24,4 @@ spring:
             - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/employeeservice
             - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/departmentservice
             - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/eurekaserver
+            - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/zuulsevice
