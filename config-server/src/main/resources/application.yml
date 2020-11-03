@@ -1,0 +1,26 @@
+#spring.application.name=config-server
+#server.port=8888
+#spring.cloud.config.server.git.uri=http://github.com/ntduy1709/config-git-server.git
+#spring.cloud.config.server.git.username=theduynguyen1709@gmail.com
+#spring.cloud.config.server.git.password=conboam1709`
+#
+#spring.cloud.config.server.git.search-paths= configuration
+#spring.cloud.config.server.git.skip-ssl-validation = true
+#
+#logging.level.org.springframework.web = INFO
+
+
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/employeeservice
+            - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/departmentservice
+            - file:///C:/Users/ntduy01/Desktop/microservice-demo/microservice/config-server/src/main/resources/eurekaserver

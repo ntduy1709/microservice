@@ -1,0 +1,14 @@
+#spring.application.name=department-service
+#server.port=8100
+#eureka.client.service-url.default-zone=http://localhost:8761/eureka
+
+spring:
+  application:
+    name: departmentservice
+server:
+  port: 8083
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+message: "it is department dev environment"
